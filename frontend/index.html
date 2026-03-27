@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PrepVerse | Advanced AI Interview Platform</title>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700&family=Roboto+Mono:wght@400;500;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <!-- Ambient Background -->
+  <div class="ambient-gradient-1"></div>
+  <div class="ambient-gradient-2"></div>
+  <div class="grid-overlay"></div>
+
+  <!-- NAVBAR -->
+  <nav class="navbar">
+    <div class="logo">
+      <div class="logo-icon"></div>
+      PREPVERSE
+    </div>
+
+    <div class="nav-links">
+      <a href="#product">PRODUCT</a>
+      <a href="#features">FEATURES</a>
+      <a href="#pricing">PRICING</a>
+      <a href="#about">ABOUT</a>
+    </div>
+
+    <div class="nav-actions">
+      <button class="btn-ghost">LOGIN</button>
+      <button class="btn-primary">GET STARTED</button>
+    </div>
+  </nav>
+
+  <!-- HERO SECTION -->
+  <main class="hero">
+    <div class="hero-content">
+      <div class="badge fade-in-up">
+        <span class="badge-dot"></span>
+        AI INTERVIEW PLATFORM 2.0
+      </div>
+
+      <h1 class="fade-in-up delay-1">
+        MASTER YOUR INTERVIEW WITH<br>
+        <span class="text-gradient">ADVANCED AI POWER</span>
+      </h1>
+
+      <p class="fade-in-up delay-2">
+        PRACTICE SMARTER WITH ADAPTIVE AI, REAL-TIME FEEDBACK,<br>
+        AND COMPANY-LEVEL QUESTIONS — ALL IN ONE PLACE.
+      </p>
+
+      <div class="hero-buttons fade-in-up delay-3">
+        <button class="btn-primary large">START INTERVIEW</button>
+        <button class="btn-outline large">EXPLORE FEATURES <span class="arrow">→</span></button>
+      </div>
+    </div>
+
+    <!-- PREVIEW DASHBOARD -->
+    <div class="dashboard-preview fade-in-up delay-4">
+      <div class="dashboard-header">
+        <div class="window-controls">
+          <span></span><span></span><span></span>
+        </div>
+        <div class="window-title">PREPVERSE_DASHBOARD.EXE</div>
+      </div>
+      <div class="dashboard-grid">
+        <!-- SIDEBAR -->
+        <div class="side-panel">
+          <div class="nav-item active">OVERVIEW</div>
+          <div class="nav-item">HISTORY</div>
+          <div class="nav-item">ANALYTICS</div>
+          <div class="nav-item">SETTINGS</div>
+
+          <div class="user-profile">
+            <div class="avatar"></div>
+            <div class="user-info">
+              <span class="user-name">ALEX CHEN</span>
+              <span class="user-role">SWE CANDIDATE</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- MAIN CONTENT -->
+        <div class="main-panel">
+          <div class="main-header">
+            <div class="main-title">DASHBOARD</div>
+            <div class="date-filter">THIS WEEK ▾</div>
+          </div>
+
+          <div class="stats-row">
+            <div class="stat-card">
+              <div class="stat-label">
+                <span>MOCK SCORE</span>
+                <span class="stat-trend">↑ 8%</span>
+              </div>
+              <div class="stat-value text-gradient">92/100</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-label">
+                <span>QUESTIONS</span>
+                <span class="stat-trend">↑ 14</span>
+              </div>
+              <div class="stat-value">124</div>
+            </div>
+            <div class="stat-card">
+              <div class="stat-label">
+                <span>FEEDBACK</span>
+                <span class="stat-trend">—</span>
+              </div>
+              <div class="stat-value">STRONG</div>
+            </div>
+          </div>
+
+          <div class="chart-section">
+            <div class="chart-header-title">PERFORMANCE TREND</div>
+            <div class="chart-box">
+              <svg viewBox="0 0 500 100" class="line-chart" preserveAspectRatio="none">
+                <line x1="0" y1="25" x2="500" y2="25" stroke="rgba(255,255,255,0.05)" stroke-width="1" />
+                <line x1="0" y1="50" x2="500" y2="50" stroke="rgba(255,255,255,0.05)" stroke-width="1" />
+                <line x1="0" y1="75" x2="500" y2="75" stroke="rgba(255,255,255,0.05)" stroke-width="1" />
+
+                <polyline points="0,80 50,60 100,70 150,40 200,50 250,20 300,35 350,15 400,25 450,10 500,5" fill="none"
+                  stroke="url(#chart-gradient)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+
+                <circle cx="250" cy="20" r="4" fill="#0ABDC6" />
+                <circle cx="350" cy="15" r="4" fill="#0ABDC6" />
+                <circle cx="450" cy="10" r="4" fill="#0ABDC6" />
+                <circle cx="500" cy="5" r="4" fill="#39FF14" />
+
+                <defs>
+                  <linearGradient id="chart-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+                    <stop offset="0%" stop-color="#0ABDC6" />
+                    <stop offset="100%" stop-color="#39FF14" />
+                  </linearGradient>
+                </defs>
+              </svg>
+            </div>
+          </div>
+
+          <div class="qa-section">
+            <div class="qa-header">RECENT FEEDBACK</div>
+            <div class="qa-item">
+              <div class="q-row">
+                <span class="label-q">Q:</span>
+                EXPLAIN OOPS CONCEPTS IN SYSTEM DESIGN.
+              </div>
+              <div class="a-row">
+                <span class="label-a">A:</span>
+                OBJECT ORIENTED PROGRAMMING INVOLVES ENCAPSULATION, INHERITANCE, POLYMORPHISM, AND ABSTRACTION. YOUR
+                ANSWER DEMONSTRATED DEEP KNOWLEDGE ALTHOUGH LACKED A REAL-WORLD EXAMPLE. SCORE: 8.5/10.
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+  </main>
+  <!-- Pipeline Integration -->
+  <script src="app.js"></script>
+</body>
+
+</html>
